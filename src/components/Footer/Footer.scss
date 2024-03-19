@@ -1,0 +1,21 @@
+
+@import "../../App.scss"; // declaracion de clase global donde está con las variables 
+
+.wrapper {
+    background-color: white;
+     border-top: 1px solid $meliMediumGray;
+    padding: 16px 0;
+
+    .container {
+        @include responsiveContainer();
+
+        .text {
+            color: $meliGray;
+            font-size: 12px;
+        }
+
+        .bold {
+            font-weight: 800;
+        }
+    }
+}

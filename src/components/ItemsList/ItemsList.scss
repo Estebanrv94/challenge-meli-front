@@ -1,0 +1,8 @@
+
+@import "../../App.scss"; // declaracion de clase global donde está con las variables 
+
+.items-list-container{
+  max-width: 1024px;
+  margin: 16px auto;
+  background: $meliLightGray;
+}

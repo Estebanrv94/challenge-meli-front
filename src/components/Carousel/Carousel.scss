@@ -1,0 +1,21 @@
+.carousel-container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+
+    .carousel-wrapper {
+        width: 100%;
+        max-width: 100vw;
+
+        .slick-slider {
+            width: 100%;
+
+            .slick-slide {
+                img {
+                    width: 100%;
+                    height: 400px;
+                }
+            }
+        }
+    }
+}

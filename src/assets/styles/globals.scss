@@ -1,0 +1,17 @@
+@use "./variables/colors" as colors;
+
+* {
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  background: colors.$meliLightGray;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

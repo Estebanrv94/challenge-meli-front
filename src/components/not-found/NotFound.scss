@@ -1,0 +1,19 @@
+@import '../../App.scss'; // declaracion de clase global donde está con las variables 
+
+.error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.e404 {
+    margin-top: 0;
+    letter-spacing: 6px;
+}

@@ -1,0 +1,75 @@
+@import "../../App.scss"; // declaracion de clase global donde está con las variables 
+
+.item-detail-container-general {
+  max-width: 1024px;
+  margin: 16px auto;
+}
+
+.item-detail-container {
+  max-width: 1024px;
+  margin: 16px auto;
+  background-color: white;
+}
+
+.item-detail-first-row {
+  display: flex;
+
+  .item-detail-img-container {
+    flex: 5;
+    margin-right: 10px;
+    margin-left: 32px;
+    margin-top: 32px;
+
+    img {
+      width: 680px;
+    }
+  }
+
+  .item-detail-info {
+    flex: 3;
+    margin-right: 32px;
+    margin-left: 14px;
+
+    .item-detail-condition-sold {
+      font-size: $font2;
+      color: $meliDarkGray;
+      margin: 32px 0 16px 0;
+    }
+
+    .item-detail-title {
+      font-size: $font5;
+      margin: 0;
+      color: $meliDarkGray;
+    }
+
+    .item-detail-price {
+      font-size: $font8;
+      margin: 32px 0 32px 0;
+      font-weight: 100;
+    }
+
+    .item-detail-buy {
+      padding: 10px;
+      background-color: $meliBlue;
+      color: white;
+      border-radius: 4px;
+      border: none;
+      width: 100%;
+      cursor: pointer;
+    }
+  }
+}
+
+.item-detail-description-title {
+  font-size: $font6;
+  color: $meliDarkGray;
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
+.item-detail-description-text {
+  font-size: $font3;
+  color: $meliMediumGray;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
