@@ -146,7 +146,7 @@ Resultados del diseño  entregable
 
 Realizado por Esteban Restrepo Vallejo
 
-Correo: esteban.retsrepo.vallejo@gmail.com
+Correo: esteban.restrepo.vallejo@gmail.com
 
 Linkedin:  www.linkedin.com/in/esteban-restrepo-vallejo
 
