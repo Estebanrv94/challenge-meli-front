@@ -109,15 +109,6 @@ Los estilos de colores se tomaron según la especificación dada, y tamaños de 
 * Los tipos de fuente o nombres de fuente no se encontraba en el requerimiento y para esto tome la fuente que encontré que tiene la pagina principal de mercadolibre.com para usar el mismo y que se viera igual.
 * En la api de detalle de item no se encontraba las categorias de ese item por eso se usó el AppContext como se explicó mas atras.
 
-## Deploy
-
-
-Realice un despliegue de lo realizado para que tambien puedan verlo como Demo y con su uso sin necesidad de instalar el repositorio localmente.
-
-* El backend lo publique en Render.com:
-
-* El frontend lo publique en vercel.app:
-
 ## Screenshots
 
 Resultados del diseño  entregable
